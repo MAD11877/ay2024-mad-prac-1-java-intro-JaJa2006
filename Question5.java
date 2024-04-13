@@ -27,12 +27,10 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    System.out.print("Enter a number: ");
     int num = in.nextInt();
     int[] numberArr = new int[num];
     int[] timesNumberAppears = new int[num];
     for (int i = 0; i < num; i++) {
-      System.out.print("Enter number "+ (i+1) +": ");
       int numInSet = in.nextInt();
       numberArr[i] = numInSet; 
     }
